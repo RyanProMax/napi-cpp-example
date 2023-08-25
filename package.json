@@ -1,0 +1,15 @@
+{
+  "name": "napi-cpp-example",
+  "version": "0.0.1",
+  "description": "Node.js Addons Example",
+  "main": "test.js",
+  "private": true,
+  "scripts": {
+    "build": "node-gyp clean && node-gyp configure build",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "bindings": "^1.5.0"
+  },
+  "gypfile": true
+}
