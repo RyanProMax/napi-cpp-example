@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "C:/Program Files/nodejs/node.exe",
+      "args": [
+        "${workspaceFolder}/test.js"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceRoot}",
+      "environment": [],
+      "console": "externalTerminal"
+    }
+  ]
+}

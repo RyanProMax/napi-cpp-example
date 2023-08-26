@@ -5,6 +5,7 @@
   "main": "test.js",
   "private": true,
   "scripts": {
+    "build:test": "node-gyp rebuild --debug",
     "build": "node-gyp clean && node-gyp configure build",
     "test": "node test.js"
   },
